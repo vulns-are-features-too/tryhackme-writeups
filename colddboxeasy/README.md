@@ -125,4 +125,4 @@ El usuario c0ldd puede ejecutar los siguientes comandos en ColddBox-Easy:
 - With `sudo chmod`, we can change file permissions, as well as give `bash` an SUID bit
 - Inside `sudo ftp`, we can get a shell with `!/bin/bash`
 
-Additionally, the user c0ldd is in the `lxd` group which we can use to mount everything in `/` and modify them as root which I did in the room [Gaming Server](https://github.com/ChocolateOverflow/tryhackme-writeups/tree/master/gamingserver).
+Additionally, the user c0ldd is in the `lxd` group which we can use to mount everything in `/` and modify them as root which I did in the room [Gaming Server](https://github.com/vulns-are-features-too/tryhackme-writeups/tree/master/gamingserver).

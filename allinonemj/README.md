@@ -233,7 +233,7 @@ bash-4.4$ id
 uid=1000(elyana) gid=1000(elyana) groups=1000(elyana),4(adm),27(sudo),108(lxd)
 ```
 
-We see that the user elyana is a member of the group `lxd`. We can exploit this to mount the whole file system at `/` and have root permission to all the file. I have a writeup using this for the room [Gaming Server](https://github.com/ChocolateOverflow/tryhackme-writeups/tree/master/gamingserver), or you can try it yourself with [this hacktricks page](https://book.hacktricks.xyz/linux-unix/privilege-escalation/interesting-groups-linux-pe/lxd-privilege-escalation).
+We see that the user elyana is a member of the group `lxd`. We can exploit this to mount the whole file system at `/` and have root permission to all the file. I have a writeup using this for the room [Gaming Server](https://github.com/vulns-are-features-too/tryhackme-writeups/tree/master/gamingserver), or you can try it yourself with [this hacktricks page](https://book.hacktricks.xyz/linux-unix/privilege-escalation/interesting-groups-linux-pe/lxd-privilege-escalation).
 
 Additionally, running `sudo -l` shows us that we can run `/usr/bin/socat` as root which, again, can be used to get a reverse shell following [this GTFObins page].
 
